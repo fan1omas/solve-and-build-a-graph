@@ -25,7 +25,6 @@ def solve(func, target_y=0, start=0, stop=10, step=0.5):
 def function(x):
     return x**2
 
-
 a = solve(function, 4, 0, 100, 0.001)
 
 if a is None:
